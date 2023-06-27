@@ -1,0 +1,5 @@
+#into the prometheus.yml level
+docker run -d --name prometheus2 -p 9090:9090 -v :/etc/prometheus/prometheus.yml prom/prometheus
+
+
+https://github.com/spring-boot-in-practice/repo/wiki/Configuring-Prometheus-and-Grafana
